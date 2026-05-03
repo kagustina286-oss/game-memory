@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="juego-de-cartas (1).png" type="image/png" />
+    <title>juego de memoria</title>
+  </head>
+  <body>
+    <main>
+      <section class="selection1">
+        <h1>Juego de memoria</h1>
+        <table>
+          <tr>
+            <td><button type="button" id="0" onclick="girar(0)" aria-label="Carta 0"></button></td>
+            <td><button type="button" id="1" onclick="girar(1)" aria-label="Carta 1"></button></td>
+            <td><button type="button" id="2" onclick="girar(2)" aria-label="Carta 2"></button></td>
+            <td><button type="button" id="3" onclick="girar(3)" aria-label="Carta 3"></button></td>
+          </tr>
+          <tr>
+            <td><button type="button" id="4" onclick="girar(4)" aria-label="Carta 4"></button></td>
+            <td><button type="button" id="5" onclick="girar(5)" aria-label="Carta 5"></button></td>
+            <td><button type="button" id="6" onclick="girar(6)" aria-label="Carta 6"></button></td>
+            <td><button type="button" id="7" onclick="girar(7)" aria-label="Carta 7"></button></td>
+          </tr>
+          <tr>
+            <td><button type="button" id="8" onclick="girar(8)" aria-label="Carta 8"></button></td>
+            <td><button type="button" id="9" onclick="girar(9)" aria-label="Carta 9"></button></td>
+            <td><button type="button" id="10" onclick="girar(10)" aria-label="Carta 10"></button></td>
+            <td><button type="button" id="11" onclick="girar(11)" aria-label="Carta 11"></button></td>
+          </tr>
+          <tr>
+            <td><button type="button" id="12" onclick="girar(12)" aria-label="Carta 12"></button></td>
+            <td><button type="button" id="13" onclick="girar(13)" aria-label="Carta 13"></button></td>
+            <td><button type="button" id="14" onclick="girar(14)" aria-label="Carta 14"></button></td>
+            <td><button type="button" id="15" onclick="girar(15)" aria-label="Carta 15"></button></td>
+          </tr>
+        </table>
+      </section>
+      <section class="selection2">
+        <h2 id="aciertos" class="estadistica">Aciertos: 0</h2>
+        <h2 id="t-restante" class="estadisticas">Tiempo: 30 segundos</h2>
+        <h2 id="movimientos" class="estadistica">Movimientos: 0</h2>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="main.js"></script>
+  </body>
+</html>
